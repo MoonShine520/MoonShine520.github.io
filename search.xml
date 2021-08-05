@@ -4,11 +4,38 @@
   
     
     <entry>
+      <title>Hexo添加404页面</title>
+      <link href="/2021/08/05/2/"/>
+      <url>/2021/08/05/2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo添加404页面"><a href="#Hexo添加404页面" class="headerlink" title="Hexo添加404页面"></a>Hexo添加404页面</h1><p>1.找到自己喜欢的404页面</p><p>可以在<a href="404.life">404模板网</a>寻找，找到之后下载下来并解压。</p><p><img src="/img/1.png"></p><p>2.将下载的解压后的内容全放到博客根目录的<code>source</code>文件夹内</p><p><img src="/img/2.png"></p><p>3.修改<code>404.html</code>内的内容</p><p><code>红框</code>的地方，可以自行选择是否修改</p><p><code>红圈</code>的地方为必须修改(根据个人情况对应修改)</p><p><img src="/img/3.png"></p><p>不同的404页面具体是不太一样的，但是大体都差不多</p><p>4.设置404页面跳过渲染,在根目录的<code>config.yml</code>中</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">skip_render:</span></span><br><span class="line">  <span class="bullet">-</span> <span class="number">404.</span><span class="string">html</span></span><br></pre></td></tr></table></figure><p>5.可以在主题的<code>config.yml</code>中关闭默认的404页面</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># A simple 404 page</span></span><br><span class="line"><span class="attr">error_404:</span></span><br><span class="line">  <span class="attr">enable:</span> <span class="literal">false</span>  <span class="comment"># 关闭</span></span><br><span class="line">  <span class="attr">subtitle:</span> <span class="string">&#x27;Page Not Found&#x27;</span></span><br><span class="line">  <span class="attr">background:</span> </span><br></pre></td></tr></table></figure><p><img src="/img/4.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> 404页面 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo主题应用</title>
       <link href="/2021/08/02/1/"/>
       <url>/2021/08/02/1/</url>
       
-        <content type="html"><![CDATA[<h1 id="Hexo博客的美化-主题应用"><a href="#Hexo博客的美化-主题应用" class="headerlink" title="Hexo博客的美化-主题应用"></a>Hexo博客的美化-主题应用</h1><h3 id="1-主题下载"><a href="#1-主题下载" class="headerlink" title="1.主题下载"></a>1.主题下载</h3><p>Hexo官方主题：<a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p><p>推荐主题：</p><p>NexT   简洁，功能多样</p><p>Butterfly   我正在使用的，美观，炫酷</p><h3 id="2-应用主题"><a href="#2-应用主题" class="headerlink" title="2.应用主题"></a>2.应用主题</h3><p>以<code>Butterfly</code>主题举例</p><p>首先进入官网下载<code>Butterfly</code> 主题</p><p>解压文件，将解压后的文件放入<code>themes</code>中</p><p>修改配置文件<code>config.yml</code>中的<code>theme</code></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure><p>之后运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>浏览 <a href="https://links.jianshu.com/go?to=http://localhost:4000">http://localhost:4000</a> ，这时候会出现错误</p><p>![QQ图片20210805000910]/img/baocuo.png)</p><p>这时我们只需要运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus</span><br></pre></td></tr></table></figure><p>安装插件后即可解决</p><p>再次执行三个代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>即可正常访问</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Hexo博客的美化-主题应用"><a href="#Hexo博客的美化-主题应用" class="headerlink" title="Hexo博客的美化-主题应用"></a>Hexo博客的美化-主题应用</h1><h3 id="1-主题下载"><a href="#1-主题下载" class="headerlink" title="1.主题下载"></a>1.主题下载</h3><p>Hexo官方主题：<a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p><p>推荐主题：</p><p>NexT   简洁，功能多样</p><p>Butterfly   我正在使用的，美观，炫酷</p><h3 id="2-应用主题"><a href="#2-应用主题" class="headerlink" title="2.应用主题"></a>2.应用主题</h3><p>以<code>Butterfly</code>主题举例</p><p>首先进入官网下载<code>Butterfly</code> 主题</p><p>解压文件，将解压后的文件放入<code>themes</code>中</p><p>修改配置文件<code>config.yml</code>中的<code>theme</code></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure><p>之后运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>浏览 <a href="https://links.jianshu.com/go?to=http://localhost:4000">http://localhost:4000</a> ，这时候会出现错误</p><p><img src="/img/baocuo.png" alt="123"></p><p>这时我们只需要运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus</span><br></pre></td></tr></table></figure><p>安装插件后即可解决</p><p>再次执行三个代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>即可正常访问</p>]]></content>
       
       
       <categories>
@@ -27,73 +54,6 @@
             <tag> Hexo主题 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>分类测试</title>
-      <link href="/2021/08/02/test2/"/>
-      <url>/2021/08/02/test2/</url>
-      
-        <content type="html"><![CDATA[<p>分类测试</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 分类测试1 </category>
-          
-          <category> 操你妈 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 666 </tag>
-            
-            <tag> 操你妈 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签测试</title>
-      <link href="/2021/08/02/test1/"/>
-      <url>/2021/08/02/test1/</url>
-      
-        <content type="html"><![CDATA[<p>标签测试</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 牛逼 </tag>
-            
-            <tag> 大神 </tag>
-            
-            <tag> 666 </tag>
-            
-            <tag> 操你妈 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Welcome to my Blog</title>
-      <link href="/2021/08/01/Welcome/"/>
-      <url>/2021/08/01/Welcome/</url>
-      
-        <content type="html"><![CDATA[<p>欢迎来到 <a href="https://moonshine.work/">MoonShine.work</a>! 这是我搭建的第一个小破站 Enjoy :)</p>]]></content>
-      
-      
       
     </entry>
     
