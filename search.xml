@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Hexo主题应用</title>
+      <link href="/2021/08/02/1/"/>
+      <url>/2021/08/02/1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo博客的美化-主题应用"><a href="#Hexo博客的美化-主题应用" class="headerlink" title="Hexo博客的美化-主题应用"></a>Hexo博客的美化-主题应用</h1><h3 id="1-主题下载"><a href="#1-主题下载" class="headerlink" title="1.主题下载"></a>1.主题下载</h3><p>Hexo官方主题：<a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p><p>推荐主题：</p><p>NexT   简洁，功能多样</p><p>Butterfly   我正在使用的，美观，炫酷</p><h3 id="2-应用主题"><a href="#2-应用主题" class="headerlink" title="2.应用主题"></a>2.应用主题</h3><p>以<code>Butterfly</code>主题举例</p><p>首先进入官网下载<code>Butterfly</code> 主题</p><p>解压文件，将解压后的文件放入<code>themes</code>中</p><p>修改配置文件<code>config.yml</code>中的<code>theme</code></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">butterfly</span></span><br></pre></td></tr></table></figure><p>之后运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>浏览 <a href="https://links.jianshu.com/go?to=http://localhost:4000">http://localhost:4000</a> ，这时候会出现错误</p><p>![QQ图片20210805000910]/img/baocuo.png)</p><p>这时我们只需要运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus</span><br></pre></td></tr></table></figure><p>安装插件后即可解决</p><p>再次执行三个代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><p>即可正常访问</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo美化 </category>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> Hexo主题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类测试</title>
+      <link href="/2021/08/02/test2/"/>
+      <url>/2021/08/02/test2/</url>
+      
+        <content type="html"><![CDATA[<p>分类测试</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 分类测试1 </category>
+          
+          <category> 操你妈 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 666 </tag>
+            
+            <tag> 操你妈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签测试</title>
+      <link href="/2021/08/02/test1/"/>
+      <url>/2021/08/02/test1/</url>
+      
+        <content type="html"><![CDATA[<p>标签测试</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 牛逼 </tag>
+            
+            <tag> 大神 </tag>
+            
+            <tag> 666 </tag>
+            
+            <tag> 操你妈 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Welcome to my Blog</title>
+      <link href="/2021/08/01/Welcome/"/>
+      <url>/2021/08/01/Welcome/</url>
+      
+        <content type="html"><![CDATA[<p>欢迎来到 <a href="https://moonshine.work/">MoonShine.work</a>! 这是我搭建的第一个小破站 Enjoy :)</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
