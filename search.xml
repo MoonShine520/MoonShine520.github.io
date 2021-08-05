@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Hexo上传自己的文章</title>
+      <link href="/2021/08/05/3/"/>
+      <url>/2021/08/05/3/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Hexo上传自己的文章"><a href="#Hexo上传自己的文章" class="headerlink" title="Hexo上传自己的文章"></a>Hexo上传自己的文章</h1><p>在博客目录下运行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hexo new pages 1</span><br></pre></td></tr></table></figure><p>然后就会在<code>source\_posts</code>生成一个名为<code>1.md</code>的文件，这就是生成的文章了。</p><p><img src="/img/5.png"></p><p>我们可以自己添加tags(标签）,title（标题）,categories（分类）等，并使用MarkDown语法进行文本内容的编辑。</p><p><img src="/img/6.png"></p><p>修改tags,title,categories,cover的具体格式如下</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">title: #内容</span><br><span class="line">cover: #url 链接</span><br><span class="line">tags:</span><br><span class="line"><span class="bullet">  -</span> #内容  可添加多个</span><br><span class="line">categories:</span><br><span class="line"><span class="bullet">  -</span> #内容  可添加多个</span><br></pre></td></tr></table></figure><p>使用<code>hexo d</code>部署到Github上</p><p>最后访问<code>username.github.io</code>就可以看到文章已经成功发布</p><p>(Markdown的语法可以自行学习，非常简单)</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo基础教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo添加404页面</title>
       <link href="/2021/08/05/2/"/>
       <url>/2021/08/05/2/</url>
@@ -41,8 +66,6 @@
       <categories>
           
           <category> Hexo美化 </category>
-          
-          <category> 教程 </category>
           
       </categories>
       
