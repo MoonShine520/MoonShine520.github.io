@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>新建香港镜像站</title>
+      <link href="/2021/08/28/4/"/>
+      <url>/2021/08/28/4/</url>
+      
+        <content type="html"><![CDATA[<h1 id="新建香港镜像站"><a href="#新建香港镜像站" class="headerlink" title="新建香港镜像站"></a>新建香港镜像站</h1><p><a href="http://hk.moonshine.work/">点我访问</a></p><p>本人在腾讯云9块钱买（嫖）了三个月的云服务器，然后打算搭建一个论坛。</p><p>结果搭建好了发现没有备案的话绑定域名就会拦截ㅍ_ㅍ</p><p>所以我就去整了个香港虚拟机打算建论坛。然后又发现….虚拟机只支持<code>FTP</code>，还不能用宝塔面板..然后..</p><p>就有了镜像站</p><p>因为<code>Hexo</code>实际上就是静态的，所以我就直接把博客整到了香港虚拟机上面（不然确实没啥用了）。</p><p>不过访问速度相比<code>Github Pages</code>确实有快很多（值了！）</p><p>啊，论坛呢弄在了洛杉矶的服务器上，不过开不久，毕竟….</p><p><img src="/img/aba.png" alt="QQ图片20210828145235"></p><p>1个月89块钱服务器费属实贵了(for me（主要还是穷xD）</p><p><a href="http://bbs.moonshine.work/">访问论坛</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂项 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 杂项 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo上传自己的文章</title>
       <link href="/2021/08/05/3/"/>
       <url>/2021/08/05/3/</url>
